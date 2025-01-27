@@ -7,11 +7,8 @@ export default function Home({products}) {
   return (
     <div>
       <Head>
-        <title>My Website</title>
+        <title>E-commerce website</title>
       </Head>
-
-        <h1>Hello World</h1>
-        <Header/>
 
         <main className ="max-w-screen-2xl mx-auto">
           <Banner />
