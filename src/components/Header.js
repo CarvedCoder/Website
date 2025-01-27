@@ -20,7 +20,7 @@ function Header() {
                     />
                 </div>
                 {/*Search*/}
-                <div className="hidden sm:flex items-center h-8 rounded-md flex-grow cursor-pointer bg-yellow-500 hover:bg-yellow-600">
+                <div className="hidden sm:flex items-center h-8 rounded-md flex-grow cursor-pointer bg-green-300 hover:bg-green-600">
                     <input type="text"
                         className="h-full flex-grow flex-shrink w-6 rounded-l-md focus:outline-none px-4" />
                     <SearchIcon className="h-12 p-4" />
@@ -29,12 +29,12 @@ function Header() {
                 <div className="text-white flex text-sm space-x-5 mx-5 whitespace-nowrap">
                     {/*user*/}
                     <div className=" link ">
-                        <p>Hello! Shreyans Behera</p>
+                        <p>Hello! Your Name </p>
                         <p className="bold">Account & Lists</p>
                     </div>
                     {/*Basket*/}
                     <div className="relative link flex items-center">
-                        <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-300 text-center rounded-full text-black bold text-xs">0</span>
+                        <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-blue-300 text-center rounded-full text-black bold text-xs">0</span>
                         <ShoppingCartIcon className="h-8" />
                         <p className="hidden md:inline bold mt-2">Basket</p>
                     </div>
@@ -56,9 +56,7 @@ function Header() {
                     <p className="pl-2 text-sm link">
                         Categories
                     </p>
-                    <p className="pl-2 text-sm link">
-                        Prime
-                    </p>
+
                     <p className="hidden pl-2 text-sm link lg:inline-flex">
                         Customer Service
                     </p>
